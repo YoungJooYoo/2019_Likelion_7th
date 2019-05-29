@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1>워드카운트를 만들어 봅시다.</h1>
+</head>
+<body>
+
+    <h1>WORD COUNT</h1>
+   <a href="{% url 'about' %}">ABOOUT</a>
+   <form action="{% url 'count' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <input type="submit" value="COUNT!"/>
+    </form>
+
+</body>
+</html>
+
+
+
